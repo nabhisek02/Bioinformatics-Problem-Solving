@@ -19,7 +19,7 @@ def countNucFrequency(seq):
     # return dict(collections.Counter(seq))
 
 
-# For optimixation of the python code
+# For optimization of the python code
 import collections
 
 #def countNucFrequency(seq):
@@ -30,11 +30,9 @@ def transcription(seq):
     return seq.replace("T", "U")
 
 def reverse_complement(seq):
-   
-
    """Swapping adenine with thymine and guanine with cytosine. 
    Reversing newly generated string"""
-   # return ''.join([DNA_ReverseComplement[nuc] for nuc in seq])[::-1]
+   # return ''.join([DNA_ReverseComplement[nuc] for nuc in seq])[::-1]   # you can use this version or,
 
    # More Pythonic solution. A little bit faster solution.
    mapping = str.maketrans('ATCG', 'TAGC')             

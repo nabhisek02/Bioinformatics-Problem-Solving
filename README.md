@@ -1,3 +1,3 @@
 # Bioinformatics-Problem-Solving
 
-This is a repository for solved bioinformatics problems.
+This is a repository for a DNA/RNA toolkit to solve the bioinformatics problems.

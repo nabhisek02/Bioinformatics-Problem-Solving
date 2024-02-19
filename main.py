@@ -70,16 +70,20 @@ test_rf_frame = ['L', 'M', 'T', 'A', 'L', 'V', 'V',
 
 print(proteins_from_rf(test_rf_frame))
 
+# Example 1
+
 print('\n[10] + All prots in 6 open reading frames:')
 for prot in all_proteins_from_orfs(NM_000207_3, 0, 0, True):
     print(f'{prot}')
 
-
+# Example 2
+    
 print('\n[10] + All prots in 6 open reading frames:')
 for prot in all_proteins_from_orfs(AB468090_1, 0, 0, True):
        print(f'{prot}')
 
 
+# Example 3
 
 print('\n[10] + All prots in 6 open reading frames:')
 for prot in all_proteins_from_orfs(JF909299_1, 0, 0, True):
